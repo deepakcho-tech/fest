@@ -1,0 +1,103 @@
+/* ===== General Styles ===== */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f9ff;
+    color: #333;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    background: linear-gradient(to right, #01579b, #0288d1);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.hero .date {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ===== Sections ===== */
+.section {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    width: 85%;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    text-align: center;
+    color: #01579b;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* ===== Highlight Section ===== */
+.highlight {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+
+/* ===== Cards ===== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* ===== Schedule ===== */
+.schedule {
+    list-style-type: square;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.schedule li {
+    margin: 10px 0;
+    color: #004d40;
+}
+
+/* ===== Venue ===== */
+.venue {
+    background: linear-gradient(to right, #fff3e0, #ffffff);
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #01579b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
